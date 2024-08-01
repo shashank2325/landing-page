@@ -12,16 +12,9 @@
         <!-- Add Firestore -->
         <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
 
-        <script>
-            const firebaseConfig = {
-                apiKey: "AIzaSyClQmKCrkfOhFoFkWilR5JzTzCCjm70ias",
-                authDomain: "portfolio-cfe2f.firebaseapp.com",
-                projectId: "portfolio-cfe2f",
-                storageBucket: "portfolio-cfe2f.appspot.com",
-                messagingSenderId: "854976857635",
-                appId: "1:854976857635:web:2440e092313729bc335396",
-                measurementId: "G-TYJW0BB9ZV"
-            };
+        <script type="module">
+            import firebaseConfig from './firebaseConfig.js';
+
             firebase.initializeApp(firebaseConfig);
         </script>
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -162,7 +155,7 @@
                                 <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
                             </ul>
                         </article>
-                        <script>
+                        <script type = "module">
                             document.getElementById('yourFormId').addEventListener('submit', function(event) {
                                 event.preventDefault();
                         
