@@ -4,8 +4,9 @@
         <title></title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> 
         <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> <!-- Include Font Awesome -->
+        <!-- Include Font Awesome -->
 
         <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
@@ -65,11 +66,11 @@
 
                             <div class="timeline-item">
                                 <div class="timeline-icon">
-                                    <span class="year">May 2024 - Aug 2023</span>
+                                    <span class="year">May 2024 - Dec 2024</span>
                                 </div>
                                 <div class="timeline-content">
-                                    <h4>AI Intern, KanTime, Plano, TX</h4>
-                                    <p>As an AI Intern at KanTime, I played a key role in the PDGM Score Analyzer project, focusing on predicting primary and secondary ICD-10 diagnosis codes using hierarchical multilabel classification. My responsibilities encompassed extracting and preprocessing detailed patient data from nested JSON files, integrating medication data and demographics to enhance feature engineering. I employed advanced machine learning models, including ClinicalBERT, to ensure robust classification, and rigorously validated these models to optimize accuracy, precision, recall, and F1 scores. The project culminated in preparing the model for deployment in a real-time environment, aiming to significantly enhance predictive capabilities and patient care.</p>
+                                    <h4>Machine Learning Engineer Intern, KanTime, Plano, TX</h4>
+                                    <p>I led the development of a distributed data pipeline using PySpark to process over 500,000 patient records, resulting in a 30% increase in ingestion speed and a 25% reduction in data processing costs. I also owned the end-to-end fine-tuning of ClinicalBERT with PyTorch and QLoRA techniques for multilabel classification of ICD-10 codes, which improved model accuracy by 40% and reduced manual medical coding efforts by approximately 15 hours per week. Additionally, I developed LLM-based automation solutions for medical coding, significantly enhancing diagnosis prediction and streamlining patient onboarding workflows.</p>
                                 </div>
                             </div>
                             
@@ -79,18 +80,18 @@
                                         <span class="year">Jul 2022 - Jul 2023</span>
                                     </div>
                                     <div class="timeline-content">
-                                        <h4>Associate Developer, SAP Labs, Bangalore, India</h4>
-                                        <p>Spearheaded backend development initiatives for SAP's Digital Assistant Suite (now known as SAP Joule) and Conversational AI, resulting in a 20% increase in chatbot efficiency. Led the integration of technologies like Spring Boot, Java, Hana database, and Kafka, contributing to the successful launch of two major chatbot projects. Fostered collaboration with cross-functional teams, including UI/UX designers and front-end developers, successfully integrating new chatbot features that improved user experience.</p>
+                                        <h4>Software Engineer, SAP Labs, Bangalore, India</h4>
+                                        <p>I spearheaded backend development for SAP Joule, driving a 20% improvement in chatbot operational efficiency by implementing machine learning-based intent and entity classification, integrated with technologies such as Java, Spring Boot, Hana DB, and Kafka. I optimized the microservices architecture to handle over 1 million monthly requests, working closely with cross-functional teams in Scrum sprints to refine conversational flows and enhance user satisfaction by 30%. Additionally, I built and automated CI/CD pipelines using Docker and Kubernetes, which shortened release cycles by 40% while ensuring 99.9% system uptime in production environments.</p>
                                     </div>
                                 </div>
                                 
                                 <div class="timeline-item">
                                     <div class="timeline-icon">
-                                        <span class="year">Jan 2022 - Jun 2023</span>
+                                        <span class="year">Jan 2022 - Jun 2022</span>
                                     </div>
                                     <div class="timeline-content">
-                                        <h4>Data Science Intern, SAP Labs Bangalore, India</h4>
-                                        <p>Assisted in the implementation of a deep anomaly detection system, TCNAE (Transformer-based Contextualized Neural Autoencoder), which was seamlessly integrated into the System Monitoring Product. Played a pivotal role in addressing both point and contextual anomalies in the SAP Focused RUN product, boosting system monitoring accuracy by 15%.</p>
+                                        <h4>Data Scientist, SAP Labs Bangalore, India</h4>
+                                        <p>I implemented the DBSCAN algorithm to enhance point-based anomaly detection, which led to a 15% improvement in system monitoring accuracy within the SAP Focused RUN environment, thereby strengthening overall reliability. Working alongside ML engineers, I helped transition prototypes into deployable models by standardizing preprocessing pipelines, containerizing training workflows, and ensuring reproducibility across staging environments. Additionally, I developed an evaluation framework that incorporated rule-based labeling and domain expert feedback to validate clustering results, enabling iterative tuning of DBSCAN parameters and improving anomaly detection efficiency.</p>
                                     </div>
                                 </div>
                             </div>
@@ -103,19 +104,23 @@
                                 <h2 class="major">Projects</h2>
                                 <span class="image main"><img src="images/dl.jpg" alt="Shashank Muthuraj" width="auto" height="auto" /></span>
                                 <p>Here are some of the key projects that showcase my expertise in AI and ML technologies:</p>
-                                    <!-- AI-Driven Foot Traffic Monitoring -->
+
+                                    <div class="project">
+                                        <h3>SwiftSelect: AI-powered Recruitment Platform <span style="font-weight:normal;"></span></h3>
+                                        <p>Designed an AI-driven recruitment platform leveraging Semantic Textual Similarity (STS) and transformer-based embeddings for accurate candidate-job matching. Open-sourced a fine-tuned LoRA adapter model on HuggingFace with over 1,000 downloads, enabling efficient semantic matching between resumes and job descriptions. Deployed real-time inference models on AWS SageMaker using FastAPI and EKS, implementing model quantization to achieve sub-100ms response times at scale. Orchestrated an end-to-end MLOps pipeline with automated training, evaluation, and deployment using SageMaker Pipelines, incorporating CI/CD and A/B testing frameworks.</p>
+                                    </div>
+                                    <div class="project">
+                                        <h3>Visa Support Virtual Assistant (RAG)</h3>
+                                        <p>Developed a virtual assistant for F1 and H1B visa applicants using a Retrieval-Augmented Generation (RAG) framework to provide context-aware responses, reducing manual query resolution time by 40%. Leveraged FAISS indexing with LLaMA 3.1-8B and Mistral 7B for document retrieval, achieving a 98% recall rate on a 30,000-word corpus of official documents. Fine-tuned both models with Direct Preference Optimization (DPO) to improve policy adherence and reduce visa-related inaccuracies. Optimized inference pipelines for speed and reliability in production.</p>
+                                    </div>
                                     <div class="project">
                                         <h3>AI-Driven Foot Traffic Monitoring: A New Era of Retail Insight</h3>
                                         <p>Developed an advanced AI system to analyze retail foot traffic using TensorFlow, OpenCV, YOLOv5, and Python. This solution was integrated with existing CCTV systems to enable real-time monitoring and data analysis, complete with a web interface built using HTML, CSS, and JavaScript for insightful analytics. The project emphasized accuracy, scalability, and cost-effectiveness, revolutionizing traditional retail foot traffic analysis methods.</p>
                                     </div>
-    
-                            <!-- Cyberbullying Detection System -->
                                     <div class="project">
                                         <h3>Cyberbullying Detection System</h3>
                                         <p>Pioneered a sophisticated cyberbullying detection system utilizing advanced machine learning models like RoBERTa, SVM, Ridge Classification, and XGBoost. The system achieves high accuracy in identifying instances of cyberbullying across various categories, demonstrating its robustness and potential for social media integration to augment online safety.</p>
                                     </div>
-    
-                            <!-- Predictive Analytics of Economic Factors -->
                                     <div class="project">
                                         <h3>Predictive Analytics of Economic Factors</h3>
                                         <p>Analyzed the effect of economic patterns and their path towards stability, especially during the pandemic, to enhance the decision-making abilities of business groups. Employed a combined model including Linear Regression, the Winter-Holtz method, SARIMA, and LSTM to provide valuable and accurate insights.</p>
